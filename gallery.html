@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography — Sean Cristina</title>
+  <meta name="description" content="A gallery of professional photography by Your Name.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+  <button class="mobile-nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <div class="name">Sean Cristina</div>
+      <div class="tagline">Photography · Film · Computing</div>
+    </div>
+    <div class="sidebar-rule"></div>
+    <nav class="sidebar-nav">
+      <a href="index.html"><span class="nav-dot"></span>Home</a>
+      <a href="gallery.html"><span class="nav-dot"></span>Photography</a>
+      <a href="films.html"><span class="nav-dot"></span>Short Films</a>
+      <a href="tech.html"><span class="nav-dot"></span>Tech &amp; Devices</a>
+      <a href="projects.html"><span class="nav-dot"></span>Projects</a>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="footer-label">Profiles</div>
+      <a href="https://500px.com/p/seancristina?view=photos" target="_blank" rel="noopener">500px ↗</a>
+      <a href="https://youtube.com/@TheChannelists" target="_blank" rel="noopener">YouTube ↗</a>
+    </div>
+  </aside>
+
+  <main class="page-content">
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="eyebrow">Best photographic works</div>
+      <h1>Photo<em>graphy</em></h1>
+      <p class="header-sub">
+        <!--
+          ↓ Describe your photography style, gear, or approach.
+          What do you love to shoot? Landscape? Portrait? Street?
+        -->
+        A selection of my best captured images, shot with my Sony α6400. Ever since I saved up enough money to buy this as my first camera at 12 years old, I have never stopped learning about this tool and understanding to use its functionality and versatility help me translate a specific artistic to a tangible snapshot. I'm especially drawn to
+        capturing the tranquility of nature and
+        the way a single frame can freeze a memorable experience in time to be relived countless more times. These images each have seen a long personalized editing and grading process in Adobe Lightroom, a software which I have also utilized to enhance the voice of my shots.
+      </p>
+    </header>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+      <div class="gallery-grid">
+
+        <!--
+          ============================================================
+          HOW TO ADD YOUR OWN PHOTOS:
+
+          1. Replace the <div class="photo-bg ph-N"> block with:
+               <img src="images/photo-filename.jpg" alt="Caption"
+                    style="width:100%;height:100%;object-fit:cover;
+                           position:absolute;inset:0;">
+             (keep the .photo-frame and .photo-bg-label divs removed)
+
+          2. Update the .caption-title text with your photo's title.
+
+          3. Update the .caption-settings text with your actual
+             camera settings (format: Camera · f/stop · shutter · ISO · focal length)
+
+          4. Change the aspect ratio class on .photo-frame:
+               .landscape  →  4:3  (wider scenes, cityscapes)
+               .portrait   →  3:4  (taller, people, architecture)
+               .square     →  1:1  (balanced compositions)
+
+          5. Add or remove gallery items as needed.
+          ============================================================
+        -->
+
+        <!-- Photo 1 -->
+        <div class="gallery-item">
+          
+          <div class="photo-frame horizontal6400">
+            <img src="gallery photos/river.jpg" alt="Tranquil Downstream Flow"
+                    style="width:100%;height:100%;object-fit:cover;
+                           position:absolute;inset:0;">
+
+          </div>
+          <!-- Caption reveals on scroll -->
+          <div class="caption-block reveal">
+            <div class="caption-title">Tranquil Downstream Flow</div>
+            <div class="caption-settings">Sony a6400 · f/6.3 · 1/13s · ISO 100 · 28mm</div>
+          </div>
+        </div>
+
+        <!-- Photo 2 -->
+        <div class="gallery-item">
+          <div class="photo-frame vertical6400">
+            <img src="gallery photos/Grand Prismatic.jpg" alt="Grand Prismatic"
+                    style="width:100%;height:100%;object-fit:cover;
+                           position:absolute;inset:0;">
+
+          </div>
+          <div class="caption-block reveal">
+            <div class="caption-title">Grand Prismatic Hot Spring</div>
+            <div class="caption-settings">Sony a6400 · f/8 · 1/320s · ISO 100 · 28mm</div>
+          </div>
+        </div>
+
+        <!-- Photo 3 -->
+        <div class="gallery-item">
+          <div class="photo-frame tv">
+            <img src="gallery photos/montana trees.jpg" alt="montana milky way"
+                    style="width:100%;height:100%;object-fit:cover;
+                           position:absolute;inset:0;">
+          </div>
+          <div class="caption-block reveal">
+            <div class="caption-title">Beehive Basin View</div>
+            <div class="caption-settings">Sony a6400 · f/7.1 · 1/250s · ISO 125 · 16mm</div>
+          </div>
+        </div>
+
+        <!-- Photo 4 -->
+        <div class="gallery-item">
+          <div class="photo-frame horizontal6400">
+            <img src="gallery photos/montana milky way.jpg" alt="montana milky way"
+                    style="width:100%;height:100%;object-fit:cover;
+                           position:absolute;inset:0;">
+          </div>
+          <div class="caption-block reveal">
+            <div class="caption-title">Milky Way Clarity</div>
+            <div class="caption-settings">Sony a6400 · f/3.5 · 30s · ISO 1600 · 12mm</div>
+          </div>
+        </div>
+
+        <!-- Photo 5 -->
+        <div class="gallery-item">
+          <div class="photo-frame horizontal6400">
+            <img src="gallery photos/star trail - SD.jpg" alt="star trail - SD"
+                    style="width:100%;height:100%;object-fit:cover;
+                           position:absolute;inset:0;">
+          </div>
+          <div class="caption-block reveal">
+            <div class="caption-title">Star Trails</div>
+            <div class="caption-settings">Sony a6400 · f/3.5 · ~8hrs. · ISO 1600 · 13mm</div>
+          </div>
+        </div>
+
+        <!-- Photo 6 -->
+        <div class="gallery-item">
+          <div class="photo-frame horizontal6400">
+            <img src="gallery photos/light painting small.jpg" alt="light painting with small paths"
+                    style="width:100%;height:100%;object-fit:cover;
+                           position:absolute;inset:0;">
+
+          </div>
+          <div class="caption-block reveal">
+            <div class="caption-title">Painting the Joshua tree</div>
+            <div class="caption-settings">Sony a6400 · f/2.8 · 30s · ISO 1250 · 16mm</div>
+          </div>
+        </div>
+
+
+        <!-- Photo 7 -->
+        <div class="gallery-item">
+          <div class="photo-frame horizontal6400">
+            <img src="gallery photos/light painting big.jpg" alt="light painting with big paths"
+                    style="width:100%;height:100%;object-fit:cover;
+                           position:absolute;inset:0;">
+
+          </div>
+          <div class="caption-block reveal">
+            <div class="caption-title">Illuminating the Joshua tree</div>
+            <div class="caption-settings">Sony a6400 · f/2.8 · 30s · ISO 1250 · 16mm</div>
+          </div>
+        </div>
+
+        <!-- Photo 8 -->
+        <div class="gallery-item">
+          <div class="photo-frame horizontal6400">
+            <img src="gallery photos/g-mars.jpg" alt="g mars"
+                    style="width:100%;height:100%;object-fit:cover;
+                           position:absolute;inset:0;">
+
+          </div>
+          <div class="caption-block reveal">
+            <div class="caption-title">What a Beautiful Night</div>
+            <div class="caption-settings">Sony a6400 · f/2.8 · 8s · ISO 6400 · 19mm</div>
+          </div>
+        </div>
+        <!--
+          ↓ Copy and paste a block above to add more photos.
+          Increment the ph-N class (ph-1 through ph-6 are styled; for more,
+          just replace with your actual image element and remove the ph-N class).
+        -->
+
+      </div><!-- /gallery-grid -->
+    </section>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

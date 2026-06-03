@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ======================================================
+    CUSTOMIZE: Update the title, description, and Sean Cristina
+  ====================================================== -->
+  <title>Sean Cristina — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Sean Cristina — photographer, filmmaker, and technology enthusiast.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ======================================================
+    MOBILE OVERLAY (closes sidebar on tap outside)
+  ====================================================== -->
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+
+  <!-- ======================================================
+    MOBILE NAV TOGGLE
+  ====================================================== -->
+  <button class="mobile-nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+  <!-- ======================================================
+    SIDEBAR NAVIGATION
+    Update "Sean Cristina" and the tagline below.
+    Update href links to your 500px and YouTube profiles.
+  ====================================================== -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <!-- ↓ Replace with your actual name -->
+      <div class="name">Sean Cristina</div>
+      <!-- ↓ Customize your tagline -->
+      <div class="tagline">Photography · Film · Computing</div>
+    </div>
+
+    <div class="sidebar-rule"></div>
+
+    <nav class="sidebar-nav">
+      <a href="index.html">
+        <span class="nav-dot"></span>Home
+      </a>
+      <a href="gallery.html">
+        <span class="nav-dot"></span>Photography
+      </a>
+      <a href="films.html">
+        <span class="nav-dot"></span>Short Films
+      </a>
+      <a href="tech.html">
+        <span class="nav-dot"></span>Tech &amp; Devices
+      </a>
+      <a href="projects.html">
+        <span class="nav-dot"></span>Projects
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="footer-label">Profiles</div>
+      <!-- ↓ Replace YOUR_USERNAME with your 500px username -->
+      <a href="https://500px.com/p/seancristina?view=photos" target="_blank" rel="noopener">500px ↗</a>
+      <!-- ↓ Replace YOUR_CHANNEL with your YouTube handle -->
+      <a href="https://youtube.com/@TheChannelists" target="_blank" rel="noopener">YouTube ↗</a>
+
+      <a href="https://yoursite.com" target="_blank" rel="noopener">put additional social media link here ↗</a>
+    </div>
+  </aside>
+
+  <!-- ======================================================
+    MAIN CONTENT
+  ====================================================== -->
+  <main class="page-content">
+
+    <!-- Hero Section -->
+    <section class="home-hero">
+      <div class="hero-text">
+        <div class="hero-eyebrow">
+          <!-- ↓ Customize your location or a brief descriptor -->
+          Student Portfolio — Class of 2027
+        </div>
+
+        <!-- ↓ Replace with your actual name (keep the <em> for the italic line) -->
+        <h1 class="hero-name">
+          Sean<br>
+          <em>Cristina</em>
+        </h1>
+
+        <!-- ↓ A short poetic line about what you do -->
+        <p class="hero-tagline">
+          Capturing moments through a lens, telling stories through film,<br>
+          and building things my own way.
+        </p>
+
+        <div class="hero-rule"></div>
+
+        <!-- ↓ Write a short bio about yourself (2–4 sentences) -->
+        <p class="hero-bio">
+          Hi! My name is Sean Cristina. I'm a high school student with a multifaceted passion for photography, short filmmaking, and
+          working closely with the latest technology. I always continue making progress refining my skillset in subjects I'm most passionate about, remaining sharp and familiarized with every emerging innovation in its accompanying fields of study. 
+        </p>
+        <p class="hero-bio">
+          I employ a diverse selection of equipment to aid in every step in the
+          process of bringing my creative visualizations to reality through photography and cinema alike, from anamorphic lenses to shape
+          light in such a way to give a dreamy feeling to a scene, to high-performance computing
+          solutions I use to transform a sequence of shots into an artwork, intentionally blending
+          light, sound, color and music together to create an immersive and captivating experience that's truly my own.  I greatly enjoy engaging in every part in the creative
+          pipeline, from crafting the initial storyboard with my brother to the intensive visual effects and color editing,
+          to the mastering of the finalized film. I use the same engaged and involved work-ethic in everything I have a genuine interest for.
+        </p>
+        <p class="hero-bio">
+          I also enjoy building, modding and repairing computers,
+          and find creative ways to get my devices to do what I them to do. This
+          portfolio showcases the work I'm most proud of, and documents all my specific projects and endeavors during high school. 
+
+        </p>
+      </div>
+
+      <!-- Profile photo column -->
+      <div class="hero-photo-col">
+        <div class="hero-photo-frame">
+          <!--
+            ============================================================
+            REPLACE THIS BLOCK with your actual professional headshot:
+            
+            <img src="gallery photos/sean-waterfall.png" alt="Sean Cristina"
+                 style="width:100%;height:100%;object-fit:cover;">
+            
+            Remove the .photo-placeholder div below once you add the image.
+            ============================================================
+          -->
+            <img src="gallery photos/sean - portrait.jpg" alt="Sean Cristina"
+                 style="width:100%;height:100%;object-fit:cover;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile Links Section -->
+    <section class="hero-profiles reveal-group">
+
+      <!-- 500px Card -->
+      <a class="profile-card reveal"
+         href="https://500px.com/p/seancristina?view=photos"
+         target="_blank" rel="noopener">
+        <div class="card-platform">Profesional Photography</div>
+        <div class="card-title">500px Profile</div>
+        <div class="card-desc">
+          Browse my full library of professional-quality photos on 500px that document my progression in photography over the years.
+        </div>
+        <span class="card-arrow">→</span>
+      </a>
+
+      <!-- YouTube Card -->
+      <a class="profile-card reveal"
+         href="https://youtube.com/@TheChannelists"
+         target="_blank" rel="noopener">
+        <div class="card-platform">My Video Journey</div>
+        <div class="card-title">YouTube Channel</div>
+        <div class="card-desc">
+          Watch my short films and video projects I've created alongside my brother on our YouTube channel, active since 2020!
+        </div>
+        <span class="card-arrow">→</span>
+      </a>
+
+    </section>
+
+  </main><!-- /page-content -->
+
+  <script src="main.js"></script>
+</body>
+</html>

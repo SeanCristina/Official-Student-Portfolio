@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Short Films — Your Name</title>
+  <meta name="description" content="Short films created by Your Name.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+  <button class="mobile-nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <div class="name">Sean Cristina</div>
+      <div class="tagline">Photography · Film · Computing</div>
+    </div>
+    <div class="sidebar-rule"></div>
+    <nav class="sidebar-nav">
+      <a href="index.html"><span class="nav-dot"></span>Home</a>
+      <a href="gallery.html"><span class="nav-dot"></span>Photography</a>
+      <a href="films.html"><span class="nav-dot"></span>Short Films</a>
+      <a href="tech.html"><span class="nav-dot"></span>Tech &amp; Devices</a>
+      <a href="projects.html"><span class="nav-dot"></span>Projects</a>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="footer-label">Profiles</div>
+      <a href="https://500px.com/p/seancristina?view=photos" target="_blank" rel="noopener">500px ↗</a>
+      <a href="https://youtube.com/@TheChannelists" target="_blank" rel="noopener">YouTube ↗</a>
+    </div>
+  </aside>
+
+  <main class="page-content">
+
+    <header class="page-header">
+      <div class="eyebrow">Filmmaking</div>
+      <h1>Short <em>Films</em></h1>
+      <p class="header-sub">
+        <!--
+          ↓ Describe your filmmaking background: what draws you to it,
+          what equipment you shoot on, what themes you explore.
+        -->
+        My path in producing my own videos and short films has been everything but linear, but it's a process I have steadily honed for the past half-decade.
+        Every new video I make, my true artistic intent is showcased even more accurately, which is one of the most exciting and motivating parts of this journey
+        because I feel a sense of improvment of my skills in this craft. I'm motivated to continue doing so because it's my way of displaying the hard work and dedication I'd put into a single project if it's worth it.
+      </p>
+      <p class="header-sub">
+        Instead of learning this skill in an organized course, I've spent over six years taking the artistic elements I love about a certain visual or auditory piece and implement it in my own unique way.
+        I enjoy working on these projects independently because the resulting projects feel much more organic and individually stylized, as opposed to formulaic and cliché.
+        A lot of these videos are really short because each second of runtime represents the best work I could produce at the time.  Each film or video is a highly-inspired distinctive experiment in storytelling through image and sound.
+      </p>
+
+      <p class="header-sub">
+        Check out the rest of my video production journey on "The Channelists" on YouTube, containing all of the fun projects my brother and I have created together over the years! (youtube.com/TheChannelists)
+      </p>
+      
+    </header>
+
+    <section class="films-section">
+
+      <!--
+        ============================================================
+        HOW TO ADD YOUR FILMS:
+
+        1. Find your YouTube video ID.
+           In a URL like: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+           The video ID is: dQw4w9WgXcQ
+
+        2. Replace VIDEO_ID_HERE in the iframe src with your video ID.
+
+        3. Remove the entire <div class="embed-placeholder">...</div>
+           block (it's just a stand-in until you add your video ID).
+
+        4. Update the film title, year, and description.
+
+        5. Duplicate a .film-entry block to add more films.
+        ============================================================
+      -->
+
+      <!-- Film 1 -->
+      <article class="film-entry reveal">
+        <div class="film-embed-wrapper">
+          <!--
+            ↓ REPLACE VIDEO_ID_HERE with your YouTube video ID, then
+              delete the embed-placeholder div below.
+          -->
+          <iframe
+            src="https://www.youtube.com/embed/tCCZ15I1EBI"
+            title="CARTEL PLANE CRASH SURVIVAL"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+
+          <!-- Remove this placeholder block once you add your iframe above -->
+            <div class="play-icon">▶</div>
+            <div class="embed-note">Replace with YouTube embed — see comment above</div>
+          </div>
+        </div>
+
+        <div class="film-meta">
+          <div class="film-number">01</div>
+          <div class="film-info">
+            <!-- ↓ Your film's title -->
+            <div class="film-title">CARTEL PLANE CRASH SURVIVAL</div>
+            <!-- ↓ The year you made it -->
+            <div class="film-year">May 2025 · Short Film / Class Project · [7:54]</div>
+            <!-- ↓ Write about your experience making this film.
+                  What was the concept? What challenges did you face?
+                  What did you learn? What are you proud of? -->
+            <p class="film-desc">
+              This is a project for my AP Chemistry class and though the assignment was to be educational in our presentation of our chemistry knowledge, I decided to make this with my own style. This
+              was the first video I created with classmates which was a really fun experience, and the directing process was easier working with a larger crew.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div class="film-divider"></div>
+
+      <!-- Film 2 -->
+      <article class="film-entry reveal">
+        <div class="film-embed-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/RYUsGSiBR8w"
+            title="Stuffed Animal Warfare"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          <div class="embed-placeholder">
+            <div class="play-icon">▶</div>
+            <div class="embed-note">Replace with YouTube embed — see comment above</div>
+          </div>
+        </div>
+
+        <div class="film-meta">
+          <div class="film-number">02</div>
+          <div class="film-info">
+            <div class="film-title">Stuffed Animal Warfare - Part I</div>
+            <div class="film-year">June 2024 · Short Film · [1:50]</div>
+            <p class="film-desc">
+              This film was one of the most complex audiovisual finished projects I've made. I actually created a 5.1 surround sound mix for the audio for this film.  This totally increased the immersion
+              for the viewer, but during the editing process, it was certainly a different workflow.
+
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div class="film-divider"></div>
+
+      <!-- Film 3 -->
+      <article class="film-entry reveal">
+        <div class="film-embed-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/nKupx6mWAqc"
+            title="Charging the Hills (Fullsend)"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          <div class="embed-placeholder">
+            <div class="play-icon">▶</div>
+            <div class="embed-note">Replace with YouTube embed — see comment above</div>
+          </div>
+        </div>
+
+        <div class="film-meta">
+          <div class="film-number">03</div>
+          <div class="film-info">
+            <div class="film-title">Charging the Hills ("Full Send")</div>
+            <div class="film-year">December 2021 · Sport / Action · [1:38]</div>
+            <p class="film-desc">
+              This video required us to be highly nimble with our recording setup and easily mobilized to move around the fast paced mountain biking trail environment.  This was shot completely on an iPhone
+              on a gimbal rig designed to fit in small areas. This helped make the camera motion more intentional because it was so lightweight.
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </section><!-- /films-section -->
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
